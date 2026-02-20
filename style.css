@@ -1,0 +1,40 @@
+body {
+    background: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.converter-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    width: 380px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input { width: 60%; }
+select { width: 40%; cursor: pointer; }
+
+#rate-text {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
